@@ -120,5 +120,5 @@ The design is strongly based on the redpitaya tutorials by [Anton Potocnik](http
 
 # Developers
 
-- Felix Tebbenjohanns: tefelix@ethz.ch (hardware)
+- Felix Tebbenjohanns: tefelix@physik.hu-berlin.de (hardware)
 - Dominik Windey: dwindey@ethz.ch (server program)
