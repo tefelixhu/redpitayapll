@@ -1,6 +1,6 @@
 # Overview
 
-Two [PLLs](https://en.wikipedia.org/wiki/Phase-locked_loop/) on a single Redpitaya. This code was developed in the Photonics Lab at ETH Zürich in order to [paramterically cool a levitated nanoparticle](https://www.photonics.ethz.ch/en/general-information/research/vacuum-trapping-and-cooling.html).
+Two [PLLs](https://en.wikipedia.org/wiki/Phase-locked_loop) on a single Redpitaya. This code was developed in the Photonics Lab at ETH Zürich in order to [paramterically cool a levitated nanoparticle](https://photonics.ethz.ch/research/levitodynamics.html).
 Tested frequencies go up to about 300 kHz, however the underlying clock frequency is 31.25 MHz making frequencies up to about 10 MHz possible in principle.
 All code is written in VHDL and the top-level connection is done in Vivado 2017.2 using a block-diagram.
 
