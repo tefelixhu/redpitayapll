@@ -1,0 +1,11 @@
+#compiled python files
+*.pyc   
+#notepad++ backups
+*~      
+#Office backup files
+~$*     
+
+tmp/*
+
+# no Notebook checkpoints
+*.ipynb*
