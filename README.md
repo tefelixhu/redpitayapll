@@ -1,6 +1,7 @@
 # Overview
 
 Two [PLLs](https://en.wikipedia.org/wiki/Phase-locked_loop) on a single Redpitaya. This code was developed in the Photonics Lab at ETH Zürich in order to [paramterically cool a levitated nanoparticle](https://photonics.ethz.ch/research/levitodynamics.html).
+Initially, this code was hosted on the former [ETH git service](https://git.ee.ethz.ch). Unfortunately, the git history was lost after the move to github.
 Tested frequencies go up to about 300 kHz, however the underlying clock frequency is 31.25 MHz making frequencies up to about 10 MHz possible in principle.
 All code is written in VHDL and the top-level connection is done in Vivado 2017.2 using a block-diagram.
 
@@ -114,11 +115,12 @@ This should create a `tmp` folder with all project files.
 
 If you make changes to the block design, export it as a .tcl script under File -> Export -> Export Block Design and replace the script/create_block_design.tcl file.
 
-# Disclaimer
-The design is strongly based on the redpitaya tutorials by [Anton Potocnik](http://antonpotocnik.com/?cat=29)
-
+# Acknowledgements
+The design is strongly based on the redpitaya tutorials by [Anton Potocnik](http://antonpotocnik.com/?cat=29).
+Thanks to Jack Homans to help move the repository.
 
 # Developers
 
 - Felix Tebbenjohanns: tefelix@physik.hu-berlin.de (hardware)
 - Dominik Windey: dwindey@ethz.ch (server program)
+- Markus Rademacher (server program)
